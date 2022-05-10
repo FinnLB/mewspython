@@ -1,0 +1,698 @@
+Code1_Subjektiver_Gesamteindruck_0_0
+
+ Classifier
+accuracy:  0.3171355498721228
+qwk:  0.059901980176259806
+
+rater 1      0   1   2    3   4   5  6
+predictions
+3            3  39  92  113  85  24  4
+4            0   1   7    6  11   4  2
+
+ Regressor
+pearson correlation:  (0.45525324501335973, 2.116879590681779e-21)
+accuracy:  0.39641943734015345
+qwk:  0.34637339466434625
+
+rater 1      0   1   2   3   4   5  6
+predictions
+1            1   0   0   0   0   0  0
+2            1  16  37  19   7   0  0
+3            1  20  52  87  58  16  2
+4            0   4  10  13  31  12  3
+5            0   0   0   0   0   0  1
+iaa - qwk:  0.5248742636006776
+---------------------------------------
+
+
+Code1_SP_GS_Gesamtscore_Sprache_1_0_0
+
+ Classifier
+accuracy:  0.3452685421994885
+qwk:  0.0
+
+rater 1      0   1   2    3   4   5  6
+predictions
+3            4  55  74  135  78  40  5
+
+ Regressor
+pearson correlation:  (0.5358882143512887, 1.9051797798053847e-30)
+accuracy:  0.34782608695652173
+qwk:  0.3224686291531843
+
+rater 1      0   1   2   3   4   5  6
+predictions
+2            3  32  28  21   7   2  0
+3            0  23  42  98  61  26  3
+4            1   0   4  16  10  12  2
+iaa - qwk:  0.7025282471009986
+---------------------------------------
+
+
+Code1_SP_WG_Gesamtscore_Wortgebrauch_1_1_0
+
+ Classifier
+accuracy:  0.31202046035805625
+qwk:  0.0
+
+rater 1      0   1   2    3   4   5  6
+predictions
+3            4  33  77  122  91  57  7
+
+ Regressor
+pearson correlation:  (0.43054022620830235, 4.469391315700457e-19)
+accuracy:  0.289002557544757
+qwk:  0.23129720967129996
+
+rater 1      0   1   2   3   4   5  6
+predictions
+2            0   3   5   9   1   1  0
+3            4  26  59  71  53  23  1
+4            0   4  12  42  37  33  6
+5            0   0   1   0   0   0  0
+iaa - qwk:  0.6271683787442389
+---------------------------------------
+
+
+Code1_SP_WG_Richtigkeit_der_Wortwahl_1_1_1
+
+ Classifier
+accuracy:  0.34271099744245526
+qwk:  0.09760405815480755
+
+rater 1       0   1   2   3   4   5   6    7
+predictions
+2             6   5   4   3   2   1   1    1
+7            24  37  40  36  40  31  30  130
+
+ Regressor
+pearson correlation:  (0.4519949053034614, 4.396865796943127e-21)
+accuracy:  0.10997442455242967
+qwk:  0.3291185465832839
+
+rater 1       0   1   2   3   4   5   6   7
+predictions
+1             0   0   0   0   0   1   0   0
+2             3   4   4   3   2   0   0   1
+3            18  16  13   9  10   8   3  12
+4             6  15  15  17  15  13  10  38
+5             2   6   9   8  12   8  14  45
+6             1   1   3   2   2   1   4  32
+7             0   0   0   0   1   1   0   3
+iaa - qwk:  0.5677017215100459
+---------------------------------------
+
+
+Code1_SP_WG_Variabilität_1_1_2
+
+ Classifier
+accuracy:  0.9616368286445013
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            15  376
+
+ Regressor
+pearson correlation:  (0.09820161719396113, 0.05234490142511031)
+accuracy:  0.9616368286445013
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            15  376
+iaa - qwk:  0.15541115516284099
+---------------------------------------
+
+
+Code1_SP_WG_Register_1_1_3
+
+ Classifier
+accuracy:  0.9974424552429667
+qwk:  0.0
+
+rater 1      0    1
+predictions
+1            1  390
+
+ Regressor
+pearson correlation:  (-0.02102551177445086, 0.6785319021719173)
+accuracy:  0.9974424552429667
+qwk:  0.0
+
+rater 1      0    1
+predictions
+1            1  390
+iaa - qwk:  0.45168686537831637
+---------------------------------------
+
+
+Code1_IN_HT_Strukturierungswörter_1_1_4
+
+ Classifier
+accuracy:  0.2966751918158568
+qwk:  0.18427954611858266
+
+rater 1       0   1   2   3   4  5  6
+predictions
+0            55  48  33  18   4  5  0
+1            24  35  17  25  12  4  3
+2            19  16  26  21  16  5  5
+
+ Regressor
+pearson correlation:  (0.5287856814264144, 1.5031395823597903e-29)
+accuracy:  0.28388746803069054
+qwk:  0.3414380548668319
+
+rater 1       0   1   2   3   4  5  6
+predictions
+0             6   2   0   0   0  0  0
+1            63  53  26  14   4  4  0
+2            28  43  47  45  19  7  3
+3             1   1   3   5   9  3  5
+iaa - qwk:  0.8252911737544768
+---------------------------------------
+
+
+Code1_IN_HT_Leser_innen_Führung_1_1_5
+
+ Classifier
+accuracy:  0.6854219948849105
+qwk:  0.0
+
+rater 1        0   1    2
+predictions
+2            101  22  268
+
+ Regressor
+pearson correlation:  (0.3132709880812331, 2.3756167674026245e-10)
+accuracy:  0.6854219948849105
+qwk:  0.006702340414031838
+
+rater 1        0   1    2
+predictions
+1              1   0    0
+2            100  22  268
+iaa - qwk:  0.6638577314124511
+---------------------------------------
+
+
+Code1_SP_ME_Gesamtscore_Mechanik_1_2_0
+
+ Classifier
+accuracy:  0.1867007672634271
+qwk:  0.02619156140122425
+
+rater 1       0   1   2   3   4   5   6
+predictions
+1             2   3   4   2   0   0   0
+2            20  75  69  90  60  39  23
+3             0   0   1   1   1   1   0
+
+ Regressor
+pearson correlation:  (0.39937821374665683, 2.0985624482350362e-16)
+accuracy:  0.24296675191815856
+qwk:  0.24253897648393064
+
+rater 1       0   1   2   3   4   5   6
+predictions
+1             2   4   3   1   0   1   0
+2            11  50  32  29  17   8   3
+3             9  22  37  58  43  27  14
+4             0   2   2   5   1   4   6
+iaa - qwk:  0.6742137819737344
+---------------------------------------
+
+
+Code1_SP_ME_Grammatik_1_2_1
+
+ Classifier
+accuracy:  0.24552429667519182
+qwk:  0.26775030056182836
+
+rater 1       0   1   2   3   4   5   6   7
+predictions
+1             2   1   1   2   1   0   0   2
+2            35  42  46  27  19  18   8  21
+7            12  18  25  20  19  12  11  49
+
+ Regressor
+pearson correlation:  (0.295348252176296, 2.604030578810765e-09)
+accuracy:  0.13810741687979539
+qwk:  0.15466650170885976
+
+rater 1       0   1   2   3   4   5   6   7
+predictions
+1             0   0   0   1   0   0   0   0
+2            18  21  21  14  10   6   4   7
+3            25  29  36  23  17  19  11  27
+4             5   9  13   9  10   5   4  35
+5             1   2   2   2   2   0   0   2
+6             0   0   0   0   0   0   0   1
+iaa - qwk:  0.6108835106040722
+---------------------------------------
+
+
+Code1_SP_ME_Orthographie_1_2_2
+
+ Classifier
+accuracy:  0.4373401534526854
+qwk:  0.0
+
+rater 1       0   1   2   3   4   5   6    7
+predictions
+7            22  27  39  26  38  43  25  171
+
+ Regressor
+pearson correlation:  (0.27805149591207157, 2.2558003320899087e-08)
+accuracy:  0.1815856777493606
+qwk:  0.15192223415920403
+
+rater 1       0   1   2  3   4   5   6   7
+predictions
+4             3   6   5  7   5   4   4   3
+5             7   8   9  9  11  13   4  41
+6            12  11  21  9  16  18  12  85
+7             0   2   4  1   6   8   5  41
+8             0   0   0  0   0   0   0   1
+iaa - qwk:  0.8065267367299548
+---------------------------------------
+
+
+Code1_SP_ME_Tippfehler_1_2_3
+
+ Classifier
+accuracy:  0.8900255754475703
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            43  348
+
+ Regressor
+pearson correlation:  (0.07505542630506702, 0.13848307414930547)
+accuracy:  0.8900255754475703
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            43  348
+iaa - qwk:  0.2979618246522161
+---------------------------------------
+
+
+Code1_SP_ME_Zeichensetzung_1_2_4
+
+ Classifier
+accuracy:  0.7544757033248082
+qwk:  0.0
+
+rater 1        0   1
+predictions
+0            295  96
+
+ Regressor
+pearson correlation:  (0.25004006709454507, 5.495153513119737e-07)
+accuracy:  0.7544757033248082
+qwk:  0.0
+
+rater 1        0   1
+predictions
+0            295  96
+iaa - qwk:  0.24440201124553185
+---------------------------------------
+
+
+Code1_SP_ST_Gesamtscore_Stil_1_3_0
+
+ Classifier
+accuracy:  0.34782608695652173
+qwk:  0.010362694300518172
+
+rater 1      0   1   2    3   4   5  6
+predictions
+2            0   0   0    1   0   0  0
+3            4  44  92  136  71  37  5
+4            0   0   0    0   0   0  1
+
+ Regressor
+pearson correlation:  (0.4822592056693214, 3.6259500395497805e-24)
+accuracy:  0.3145780051150895
+qwk:  0.2975715401547966
+
+rater 1      0   1   2   3   4   5  6
+predictions
+2            3  25  30  42   7   0  1
+3            1  18  55  84  55  25  3
+4            0   1   7  11   9  12  1
+5            0   0   0   0   0   0  1
+iaa - qwk:  0.5275324225780029
+---------------------------------------
+
+
+Code1_ST_GS_Gesamtscore_Struktur_2_0_0
+
+ Classifier
+accuracy:  0.5601023017902813
+qwk:  0.0
+
+rater 1      0   1   2   3   4   5    6
+predictions
+6            7  15  33  56  28  33  219
+
+ Regressor
+pearson correlation:  (0.36632826213228037, 7.311279423064966e-14)
+accuracy:  0.3171355498721228
+qwk:  0.1609986728599868
+
+rater 1      0  1   2   3   4   5    6
+predictions
+3            0  0   0   1   0   0    0
+4            2  5   1   4   1   0    4
+5            5  9  25  35  20  22  115
+6            0  1   7  16   7  11  100
+iaa - qwk:  0.717661468309991
+---------------------------------------
+
+
+Code1_ST_AB_Absatzgestaltung_2_1_1
+
+ Classifier
+accuracy:  0.5345268542199488
+qwk:  0.0
+
+rater 1        0   1   2    3
+predictions
+3            101  14  67  209
+
+ Regressor
+pearson correlation:  (0.2684075595564025, 7.059978501359067e-08)
+accuracy:  0.43478260869565216
+qwk:  0.12557977097131934
+
+rater 1       0  1   2    3
+predictions
+1             5  0   0    0
+2            56  7  44   83
+3            40  7  23  126
+iaa - qwk:  0.7710318118316472
+---------------------------------------
+
+
+Code1_ST_EL_Existenz_der_Einleitung_2_2_1
+
+ Classifier
+accuracy:  0.8772378516624041
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            48  343
+
+ Regressor
+pearson correlation:  (0.2100627268766617, 2.8237514039942588e-05)
+accuracy:  0.8772378516624041
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            48  343
+iaa - qwk:  0.5549686159965197
+---------------------------------------
+
+
+Code1_ST_EL_Markierung_der_Einleitung_2_2_2
+
+ Classifier
+accuracy:  0.6930946291560103
+qwk:  0.0
+
+rater 1        0    1
+predictions
+1            120  271
+
+ Regressor
+pearson correlation:  (0.23351360472502009, 3.051369205551401e-06)
+accuracy:  0.7007672634271099
+qwk:  0.05833556328605838
+
+rater 1        0    1
+predictions
+0              7    4
+1            113  267
+iaa - qwk:  0.6392727534629128
+---------------------------------------
+
+
+Code1_ST_SL_Existenz_des_Schlusses_2_3_1
+
+ Classifier
+accuracy:  0.9130434782608695
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            34  357
+
+ Regressor
+pearson correlation:  (0.21639596240376804, 1.5851913267548657e-05)
+accuracy:  0.9130434782608695
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            34  357
+iaa - qwk:  0.5306369397849138
+---------------------------------------
+
+
+Code1_ST_SL_Markierung_des_Schlusses_2_3_2
+
+ Classifier
+accuracy:  0.7902813299232737
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            82  309
+
+ Regressor
+pearson correlation:  (0.2272819783454298, 5.642383266185614e-06)
+accuracy:  0.7902813299232737
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            82  309
+iaa - qwk:  0.5794527033125019
+---------------------------------------
+
+
+Code1_IN_GS_Gesamtscore_Inhalt_3_0_0
+
+ Classifier
+accuracy:  0.4629156010230179
+qwk:  0.11758379321896428
+
+rater 1      0   1   2   3    4   5  6
+predictions
+3            1   5  11  14    4   1  0
+4            3  15  36  84  167  49  1
+
+ Regressor
+pearson correlation:  (0.512927739224765, 1.2738703642703278e-27)
+accuracy:  0.4475703324808184
+qwk:  0.34173941718590006
+
+rater 1      0   1   2   3    4   5  6
+predictions
+2            0   2   2   5    0   0  0
+3            4  14  30  44   44   6  0
+4            0   4  15  49  127  42  1
+5            0   0   0   0    0   2  0
+iaa - qwk:  0.575346054303281
+---------------------------------------
+
+
+Code1_IN_EL_Thema_wird_klar_3_1_1
+
+ Classifier
+accuracy:  0.6828644501278772
+qwk:  0.0
+
+rater 1        0    1
+predictions
+1            124  267
+
+ Regressor
+pearson correlation:  (0.425322857346246, 1.3096508537537694e-18)
+accuracy:  0.6828644501278772
+qwk:  0.0
+
+rater 1        0    1
+predictions
+1            124  267
+iaa - qwk:  0.6402434501379699
+---------------------------------------
+
+
+Code1_IN_EL_Themenrelevanz_Hook_3_1_2
+
+ Classifier
+accuracy:  0.6649616368286445
+qwk:  0.32232115687390017
+
+rater 1        0    1
+predictions
+0            151   62
+1             69  109
+
+ Regressor
+pearson correlation:  (0.4047750141150906, 7.567962088667532e-17)
+accuracy:  0.680306905370844
+qwk:  0.35167867138896625
+
+rater 1        0    1
+predictions
+0            156   61
+1             64  110
+iaa - qwk:  0.5476039275072053
+---------------------------------------
+
+
+Code1_IN_EL_eigene_Position_3_1_3
+
+ Classifier
+accuracy:  0.8005115089514067
+qwk:  0.0
+
+rater 1        0   1
+predictions
+0            313  78
+
+ Regressor
+pearson correlation:  (0.21897210567668005, 1.2472100317214535e-05)
+accuracy:  0.8005115089514067
+qwk:  0.0
+
+rater 1        0   1
+predictions
+0            313  78
+iaa - qwk:  0.5946426167721093
+---------------------------------------
+
+
+Code1_IN_HT_Nennung_Pro_und_Kontra_Argumente_3_2_1
+
+ Classifier
+accuracy:  0.7698209718670077
+qwk:  0.0
+
+rater 1       0   1    2
+predictions
+2            14  76  301
+
+ Regressor
+pearson correlation:  (0.2584690650520649, 2.185064240285e-07)
+accuracy:  0.7698209718670077
+qwk:  0.0
+
+rater 1       0   1    2
+predictions
+2            14  76  301
+iaa - qwk:  0.48733386725431416
+---------------------------------------
+
+
+Code1_IN_SL_eigene_Position_3_3_1
+
+ Classifier
+accuracy:  0.8797953964194374
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            47  344
+
+ Regressor
+pearson correlation:  (0.2718860494197246, 4.7021790128295735e-08)
+accuracy:  0.8797953964194374
+qwk:  0.0
+
+rater 1       0    1
+predictions
+1            47  344
+iaa - qwk:  0.4624723878489927
+---------------------------------------
+
+
+Code1_IN_AR_Gesamteindruck_Argumentation_3_4_0
+
+ Classifier
+accuracy:  0.3734015345268542
+qwk:  0.012541734440544405
+
+rater 1      0   1    2    3   4   5  6
+predictions
+2            0   1    2    1   0   0  0
+3            6  43  100  144  79  14  1
+
+ Regressor
+pearson correlation:  (0.46488415543318384, 2.3293727025108757e-22)
+accuracy:  0.3836317135549872
+qwk:  0.3142532600299879
+
+rater 1      0   1   2    3   4   5  6
+predictions
+1            1   1   0    0   0   0  0
+2            3  21  39   36   3   0  0
+3            2  22  60  103  69  11  0
+4            0   0   3    6   7   3  1
+iaa - qwk:  0.4187410498437091
+---------------------------------------
+
+
+Code1_IN_AR_Gewichtung_3_4_1
+
+ Classifier
+accuracy:  0.9386189258312021
+qwk:  0.0
+
+rater 1        0   1
+predictions
+0            367  24
+
+ Regressor
+pearson correlation:  (0.20899811397372736, 3.106300921907528e-05)
+accuracy:  0.9386189258312021
+qwk:  0.0
+
+rater 1        0   1
+predictions
+0            367  24
+iaa - qwk:  0.03877610133688769
+---------------------------------------
+
+
+Code1_IN_AR_Passung_Fragestellung_Argumentation_3_4_2
+
+ Classifier
+accuracy:  0.8465473145780051
+qwk:  0.438839886380625
+
+rater 1       0   1    2
+predictions
+0            23   1    1
+2            43  15  308
+
+ Regressor
+pearson correlation:  (0.6607379863706316, 2.1033232299377569e-50)
+accuracy:  0.7774936061381074
+qwk:  0.4571104222154303
+
+rater 1       0   1    2
+predictions
+1            42   3    8
+2            24  13  301
+iaa - qwk:  0.5903429273001621
+---------------------------------------
