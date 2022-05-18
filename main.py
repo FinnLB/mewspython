@@ -53,7 +53,7 @@ def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
 
     print("\n", "Regressor")
 
-    if os.path.exists("trained_classifiers/" + column + ".svr"):
+    if os.path.exists("trained_regressors/" + column + ".svr"):
         # load regressor
         regressor = pickle.load(open("trained_regressors/" + column + ".svr", "rb"))
     else:
