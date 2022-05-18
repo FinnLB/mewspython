@@ -36,9 +36,11 @@ def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
     train_x_mat = vocab.transform(train_x)
     test_y_mat = vocab.transform(test_x)
 
-    if os.path.exists("trained_classifiers/" + column):
+    print("\n", "Classifier")
+
+    if os.path.exists("trained_classifiers/" + column + ".svc"):
         # load classifier
-        classifier = pickle.load(open("trained_classifiers/" + column, "rb"))
+        classifier = pickle.load(open("trained_classifiers/" + column + ".svc", "rb"))
     else:
         # train classifier
         classifier.fit(train_x_mat, train_y)
@@ -46,21 +48,21 @@ def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
         pickle.dump(classifier, open("trained_classifiers/" + column + ".svc", "wb"))
 
     # test classifier
-    print("\n", "Classifier")
     predictions_c = classifier.predict(test_y_mat)
     test(predictions_c, test_y)
 
+    print("\n", "Regressor")
+
     if os.path.exists("trained_classifiers/" + column + ".svr"):
-        # load classifier
-        regressor = pickle.load(open("trained_classifiers/" + column + ".svr", "rb"))
+        # load regressor
+        regressor = pickle.load(open("trained_regressors/" + column + ".svr", "rb"))
     else:
-        # train classifier
+        # train regressor
         regressor.fit(train_x_mat, train_y)
-        # save classifier
-        pickle.dump(regressor, open("trained_classifiers/" + column + ".svr", "wb"))
+        # save regressor
+        pickle.dump(regressor, open("trained_regressors/" + column + ".svr", "wb"))
 
     # test regressor
-    print("\n", "Regressor")
     predictions_r = regressor.predict(test_y_mat)
     test(predictions_r, test_y, pearson=True)
 
