@@ -26,7 +26,8 @@ head.append("doc")
 writer.writerow(head)
 for row in reader:
     doc_id = row[0]
-    efile = find_file(remove_preceding_zeros(doc_id.replace("X", "_")) + ".txt", "MEWS_data/MEWS_Essays")
+    efile = find_file(remove_preceding_zeros(doc_id.replace("X", "_").replace("alD", "aID")) + ".txt",
+                      "MEWS_data/MEWS_Essays")
     if efile is not None:
         with open(efile, "r") as essay_file:
             row.append(essay_file.read())

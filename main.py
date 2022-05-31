@@ -8,23 +8,26 @@ from sklearn.metrics import accuracy_score, cohen_kappa_score
 from sklearn.pipeline import FeatureUnion
 from sklearn import svm
 
-
 corpus = pd.read_csv("data_ordinal.csv")
 
 
 def test(predictions, gold, pearson=False):
+    r, p = 0, 0
     if pearson:
-        print("pearson correlation: ", scipy.stats.pearsonr(predictions, gold))
+        r, p = scipy.stats.pearsonr(predictions, gold)
+        print(predictions)
+        print(gold)
         predictions = [round(val) for val in predictions]
 
-    print("accuracy: ", accuracy_score(predictions, gold))
-    print("qwk: ", cohen_kappa_score(predictions, gold, weights="quadratic"), "\n")
-    confusion_matrix = pd.crosstab(predictions, gold, rownames=['predictions'], colnames=['rater 1'])
-    print(confusion_matrix)
+    print(accuracy_score(predictions, gold), end=" ")
+    print(cohen_kappa_score(predictions, gold, weights="quadratic"), end=" ")
+
+    if pearson:
+        print(r, p, end=" ")
 
 
 def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
-    print(column)
+    print(column, end=" ")
     train_x, test_x, train_y, test_y = model_selection.train_test_split(corpus['doc'], corpus[column], test_size=0.2,
                                                                         random_state=3)
 
@@ -36,7 +39,7 @@ def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
     train_x_mat = vocab.transform(train_x)
     test_y_mat = vocab.transform(test_x)
 
-    print("\n", "Classifier")
+    # print("\n", "Classifier")
 
     if os.path.exists("trained_classifiers/" + column + ".svc"):
         # load classifier
@@ -51,7 +54,7 @@ def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
     predictions_c = classifier.predict(test_y_mat)
     test(predictions_c, test_y)
 
-    print("\n", "Regressor")
+    # print("\n", "Regressor")
 
     if os.path.exists("trained_regressors/" + column + ".svr"):
         # load regressor
@@ -68,10 +71,11 @@ def train_test(column: str, classifier=svm.SVC(), regressor=svm.SVR()):
 
 
 def inter_annotator_agreement(column1: str, column2: str):
-    print("iaa - qwk: ", cohen_kappa_score(corpus[column1], corpus[column2], weights="quadratic"))
+    print(cohen_kappa_score(corpus[column1], corpus[column2], weights="quadratic"))
 
 
 if __name__ == '__main__':
+    print("category", "accuracy", "qwk", "accuracy", "qwk", "pearson_correlation", "iaa")
     last_c1_column = None
     for column in corpus.columns:
         if column.startswith('Code1'):
@@ -79,4 +83,3 @@ if __name__ == '__main__':
             train_test(column)
         elif column.startswith('Code2'):
             inter_annotator_agreement(last_c1_column, column)
-            print("---------------------------------------", "\n\n")
