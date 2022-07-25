@@ -3,3 +3,5 @@ trained_regressors
 MEWS_data
 .idea
 venv
+data.csv
+data_ordinal.csv
